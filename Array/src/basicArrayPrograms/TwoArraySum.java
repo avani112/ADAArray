@@ -27,7 +27,7 @@ public class TwoArraySum {
 		while(j<bl && k<(al+bl)) {
 			c[k++]=b[j]; j++;
 		}
-		for(int x=0;x<(al+bl-1);x++) {
+		for(int x=0;x<c.length;x++) {
 			System.out.print(c[x]+" ");
 		}
 	}

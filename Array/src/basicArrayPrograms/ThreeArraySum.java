@@ -4,7 +4,7 @@ public class ThreeArraySum {
 	public static void main(String args[]) {
 		int a[]= {12,36,45,57,87,89};
 		int b[]= {11,54,76,88,90};
-		int c[]= {45,54,90};
+		int c[]= {45,54,10};
 		int al=a.length  , bl=b.length , cl=c.length;
 		int d[]= new int[al+bl+cl];
 		int i=0,j=0,k=0,l=0;

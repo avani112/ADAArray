@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class RemoveDuplicate {
 
 	public static void main(String[] args) {
-		int a[] = {2,5,6,8,3,5,8};
+		int a[] = {1,1,2,5,6,8,3,5,8};
 		System.out.println("length before removing duplicates: "+a.length );
 		System.out.println("original array: ");
 		for(int i=0; i<a.length; i++) System.out.println(a[i]);

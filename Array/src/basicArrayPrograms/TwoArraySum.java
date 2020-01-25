@@ -3,7 +3,7 @@ package basicArrayPrograms;
 public class TwoArraySum {
 	public static void main(String args[]) {
 		int a[]= {12,36,45,57,87,89};
-		int b[]= {11,54,76,88,90};
+		int b[]= {11,54,76,90};
 		int al=a.length  , bl=b.length;
 		int c[]= new int[al+bl];
 		int i=0,j=0,k=0;
@@ -28,7 +28,7 @@ public class TwoArraySum {
 			c[k++]=b[j]; j++;
 		}
 		for(int x=0;x<c.length;x++) {
-			System.out.print(c[x]+" ");
+			if(c[x]!=0) System.out.print(c[x]+" ");
 		}
 	}
 }
